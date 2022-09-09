@@ -4,8 +4,10 @@ import { NavButton } from '../elemnets/index.js';
 const Navigation = () => {
     return (
         <div>
-            <h1>//</h1><NavButton> PEOPLE </NavButton>
-            <h1>//</h1><NavButton> NHRL </NavButton>
+            <NavButton>// PEOPLE </NavButton>
+            <NavButton>// NHRL </NavButton>
+            <NavButton href="/About">// ABOUT </NavButton>
+            <NavButton>// RESEARCH </NavButton>
         </div>
     );
 };
